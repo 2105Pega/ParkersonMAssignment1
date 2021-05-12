@@ -1,5 +1,8 @@
-package com.revature.teacher;
-import com.revature.student.*;
+package com.revature.Driver;
+
+import com.revature.beans.*;
+
+
 
 public class Driver {
 
@@ -9,8 +12,13 @@ public class Driver {
 		System.out.println(Matthew.toString());
 		System.out.println(Parkerson.toString());
 		System.out.println("I think our trainer matt is intellectual LOLZ");
+		Teacher matt = new Teacher("Matty", 10000);
+		Teacher Knighten = new Teacher("Knighten", 10);
+		System.out.println(matt.toString());
+		System.out.println(Knighten.toString());
+		System.out.println("I go by matt and I am cool trainer LOLZ");
 		
-	
+
 	}
 
 }

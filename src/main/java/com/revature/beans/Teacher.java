@@ -1,15 +1,8 @@
-package com.revature.teacher;
+package com.revature.beans;
 
 public class Teacher {
-	
 	private String name;
 	private int age;
-	
-	
-
-	public Teacher() {
-	super();
-	}
 	
 	public Teacher(String name, int age) {
 		this.name = name;
@@ -36,8 +29,6 @@ public class Teacher {
 	public String toString() {
 		return "Teacher [name=" + name + ", age=" + age + "]";
 	}
-	
-	
 	
 	
 	
